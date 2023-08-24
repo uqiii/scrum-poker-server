@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/20058979/.nvm/versions/node/v14.17.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/20058979/.nvm/versions/node/v14.17.0/bin:/Users/20058979/.nvm/versions/node/v14.17.0/bin:/usr/local/opt/postgresql@12/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Library/Apple/usr/bin:/Users/20058979/.nvm/versions/node/v14.17.0/bin:/usr/local/opt/postgresql@12/bin:/Users/20058979/Library/Android/emulator:/Users/20058979/Library/Android/sdk/tools:/Users/20058979/Library/Android/sdk/tools/bin:/Users/20058979/Library/Android/sdk/platform-tools:/Users/20058979/Library/Android/emulator:/Users/20058979/Library/Android/sdk/tools:/Users/20058979/Library/Android/sdk/tools/bin:/Users/20058979/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:137150:13)
+      at Interface.emit (events.js:376:20)
+      at Interface._ttyWrite (readline.js:880:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:376:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1149:36)
+      at ReadStream.emit (events.js:376:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,20 @@
+{
+  "name": "scrum-poker-server",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/uqiii/scrum-poker-server.git",
+  "author": "Uqi <musimhujan230@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.28.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
